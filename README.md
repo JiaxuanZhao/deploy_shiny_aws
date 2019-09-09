@@ -26,7 +26,8 @@ If you are a student, you can google aws student and sign up there by using your
 
 Click on the `EC2` button, then `Launch Instance`, it will lead you to `choose AMI` page. Select the newest `Unbuntu Server`.
 
-<img src="screen_shot/ec2.png" alt="drawing"/> 
+
+![](screen_shot/ec2.png)
 <br/><br/>
 ![](screen_shot/launch_instance.png)
 <br/><br/>
