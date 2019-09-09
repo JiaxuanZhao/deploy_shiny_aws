@@ -85,7 +85,7 @@ If you see something like `ubuntu@xxx`, you are connected.
 
 From your terminal you just logged in. 
 
-**I. Install system required libraries. **
+**I. Install system required libraries.**
 
 ```
 $ sudo apt-get update
@@ -106,7 +106,7 @@ $ sudo apt-get -y install \
     libv8-dev
 ```
 
-**II. Install R to ubuntu 18.04. **
+**II. Install R to ubuntu 18.04.**
 
 Follow this link: https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04
 Remeber if your ubuntu is not 18.04, you probably need to google the newest installation code. 
@@ -122,7 +122,7 @@ If your R is succefully installed, then R will show up if you type `sudo -i R`. 
 ![](screen_shot/r_base.png)
 
 
-**III. Install Shiny Server ** 
+**III. Install Shiny Server** 
 
 Follow install shiny server from this link: https://www.linode.com/docs/development/r/how-to-deploy-rshiny-server-on-ubuntu-and-debian/
 
@@ -155,7 +155,7 @@ sudo systemctl status shiny-server.service
 ![](screen_shot/shiny_server_status.png)
 <br/><br/>
 
-**IV. Install R studio Server ** 
+**IV. Install R studio Server** 
 
 Follow install R studio server from this link:
 https://www.rstudio.com/products/rstudio/download-server/
@@ -195,7 +195,7 @@ $ sudo su - -c "R -e \"install.packages(c('ggplot2', 'dplyr', 'tidyr', 'readr', 
 ```
 
 
-**VI. Change configuration files **
+**VI. Change configuration files**
 
 Back in terminal, stop the nginx service and the shiny-server.
 
@@ -271,7 +271,7 @@ server {
 ```
 Use `esc` to exsit `insert` mode, type `:wq` to save and quit.  
 
-**VII. Password Protecting the shiny App **
+**VII. Password Protecting the shiny App**
 
 If you don't want everyone to access your shiny, you can set password to protect it. Here, I set name as Crystal.
 Enter the password. 
@@ -287,7 +287,7 @@ Add more users. You need to leave out the -c argument for any additional users y
 $ sudo htpasswd /etc/nginx/.htpasswd Newuser
 ```
 
-**VIII. Password Protecting the R studio **
+**VIII. Password Protecting the R studio**
 
 Start nginx and shiny:
 ```
