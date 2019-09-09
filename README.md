@@ -5,6 +5,7 @@ I recently want to deploy my intern company's R shiny on aws so that everyone ca
 I'm pretty new to this field, happy to disscuss. 
 
 I mainly used tutorial from here: 
+
 https://tm3.ghost.io/2017/12/31/deploying-an-r-shiny-app-to-aws/
 
 https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04
@@ -13,11 +14,11 @@ https://www.linode.com/docs/development/r/how-to-deploy-rshiny-server-on-ubuntu-
 
 https://www.rstudio.com/products/rstudio/download-server/
 
-### Today I will go over xxxx things:
+### Today I will go over three things:
 
 * Create an instance on aws
-* Deploy a sample R shiny on aws
-* Set up username and password when login the shiny
+* Install R, R shiny server, R studio server
+* Deploy shiny
 
 ### Step 1: Create an instance on aws
 
