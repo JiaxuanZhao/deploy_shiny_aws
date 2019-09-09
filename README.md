@@ -185,7 +185,7 @@ If R studio server is running, you should see `Active: active (running)`
 
 **V. Install R Libraries**
 
-Install the libraries you need, may talk a while to run.
+Install the libraries you need, may take a while to run.
 
 ```
 $ sudo su - -c "R -e \"install.packages(c('shiny', 'rmarkdown', 'shinydashboard', 'shinyjs'), repos='http://cran.rstudio.com/')\""
@@ -193,6 +193,7 @@ $ sudo su - -c "R -e \"install.packages(c('shiny', 'rmarkdown', 'shinydashboard'
 $ sudo su - -c "R -e \"install.packages(c('ggplot2', 'dplyr', 'tidyr', 'readr', 'lazyeval', 'stringr', 'ggthemes', 'ggExtra', 'magrittr', 'viridis', 'gridExtra', 'lubridate', 'fasttime', 'data.table'), repos='http://cran.rstudio.com/')\""
 
 ```
+
 
 **VI. Change configuration files **
 
